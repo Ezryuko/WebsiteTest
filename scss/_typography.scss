@@ -1,0 +1,14 @@
+.primary_font{
+  font-family: 'Roboto', sans-serif;
+  color:$primary_color;
+}
+
+.title{
+  @extend .primary_font;
+  font-size: 30px;
+}
+
+.bold{
+  @extend .primary_font;
+  font-weight: bold;
+}
